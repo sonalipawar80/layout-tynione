@@ -1,0 +1,117 @@
+.heroImg{
+    background-color: #fcdb00;
+    padding: 60px 0 110px;
+}
+
+.header{
+    margin-bottom: 60px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 0 10px;
+}
+.navbar ul li a {
+    color: black;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 22px;
+    height: 47px;
+    display: inline-block;
+    border: 1px solid black;
+    line-height: 47px;
+    padding: 0 18px;
+    transition: all .4s ease-in-out;
+}
+
+.navbar ul li a:is(:hover, :focus, :active){
+    background-color: black;
+    color:white;
+    
+}
+
+.inspiration{
+    margin-top: 70px;
+}
+.brand-icon li{
+    display: inline-block;
+}
+.brand-icon li:not(:last-child){
+    margin-right: 38px;
+}
+.brand-icon li i{
+ font-size: 40px;
+ color: var(--color-sec);
+ transition: all .4s ease-in-out;
+}
+
+.brand-icon li:hover i{
+    color: #ff5733;
+    transform: scale(1.4) rotate(360deg);
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* -------------featre section---------------------- */
+
+.feature{
+    padding: 120px 75px;
+}
+.thambInfo{
+    margin-bottom: 90px; ;
+}
+.thumbnail i{
+    font-size: 40px;
+}
+
+/* -------------footer section------- */
+
+.footerSection{
+    background-color: #010101;
+    padding: 95px 0 140px   
+}
+.submit-button {
+    background-color: #fcdb00;
+    border-radius: 5px;
+    height: 50px;
+    /* line-height: 50px; */
+    color: #010101;
+    text-transform: uppercase;
+    font-size: 16px;
+    width: 127px;
+    font-weight: bold;
+    margin-left: 10px;
+    cursor: pointer;
+    outline: none;
+    
+}
+
+.form-group{
+    margin-bottom: 80px;
+}
+.email {
+    padding-left: 25px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 5px;
+    width: 730px;
+    outline: none;
+}
+
+.email::placeholder{
+    font-size: 16px;
+    color: #898989;
+    text-transform: capitalize;
+}
+
+.footerSection .brand-icon li i{
+    font-size: 40px;
+    color: #fcdb00;
+}
+
+.footerLinks li,
+.footerLinks li a:is(:visited, :link) {
+    color: white;
+    font-style: normal;
+}
+.footerLinks li a:is(:visited, :link){
+    text-transform: capitalize;
+}

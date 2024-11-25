@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --color-pri:#fcdb00;
+    --color-sec:black;
+    --color-h1:#010101;
+    --color-h2:#313841;
+    --color-para:#555555;
+
+
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+a:link, a:visited{
+	text-decoration: none;
+}
+
+ul{
+	list-style: none;
+}
+.container{
+    width: 1180px;
+    margin:0 auto;
+
+}
+.row{
+    display: table;
+    clear: both;
+    width: 100%;
+    border: 1px solid red;
+}
+.row:not(:last-child){
+    margin-bottom: 90px;
+}
+
+.text-lowercase{
+    text-transform: lowercase;
+}
+
+
+/* ----------------gride css -------- */
+[class^="col-"]{
+    float: left;
+    padding: 0 15px;
+}
+
+.col-3{
+    width: calc(100%*3/12);
+    border: 1px solid red;
+}
+.col-4{
+    width: calc(100%*4/12);
+    /* border: 1px solid red; */
+}
+.col-5{
+    width: calc(100%*5/12);
+    border: 1px solid red;
+}
+.col-9{
+    width: calc(100%*9/12);
+    border: 1px solid red;
+}
+.col-10{
+    width: calc(100% * 10 /12);
+    /* border: 1px solid red; */
+}
+.offset-1{
+    margin-left: calc(100%*1/12);
+}
+.offset-4{
+    margin-left: calc(100%*4/12);
+}
+.offset-2{
+    margin-left: calc(100% *2 /12);
+}
+
+
+
+
+
+
+/* ----------typography----------- */
+
+.pri-heading{
+    color: var(--color-sec);
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.sec-heading{
+    font-size: 20px;
+    font-weight: regular;
+    margin-bottom: 24px;
+    color:var(--text-pri) ;
+}
+
+.para{
+    font-size: 16px;
+    /* font-weight: regular; */
+    /* margin-bottom: 24px; */
+    color:var(--text-sec) ;
+    margin-bottom: 40px;
+}
+.thambInfo h3{
+    color: var(--color-sec);
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.thambInfo p{
+    color: var( --text-ter);
+    /* font-size: 16px;
+    font-weight: regular; */
+}
+.text-center{
+    text-align: center;
+}
+.px-20{
+    padding: 0 20px;
+}
+
+.footerSection .sec-heading{
+    color:#898989;  
+}
+.footerSection .pri-heading{
+    color: #fcdb00;
+}
+
+.mb-135{
+    margin-bottom: 135px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
